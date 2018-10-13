@@ -1,4 +1,4 @@
-baseurl = "https://bluestonehomeloans.com/"
+baseurl = "https://bluestonehomeloans.netlify.com/"
 languageCode = "en-us"
 title = "Bluestone Home Loans"
 theme = "hugo-creative-theme"
