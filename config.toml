@@ -38,6 +38,7 @@ googleAnalytics = ""
 			contact   = "Contact"
 
 
+
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
@@ -51,6 +52,11 @@ googleAnalytics = ""
 		headline    = "We've got what you need!"
 		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
 		buttonText  = "Get started!"
+
+	# Login section
+	[params.login]
+
+
 
 
 	# Service section
