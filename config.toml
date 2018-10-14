@@ -53,35 +53,24 @@ googleAnalytics = ""
 		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
 		buttonText  = "Get started!"
 
-	# Login section
-	[params.login]
-
-
-
-
 	# Service section
 	[params.services]
 		headline = "At your service"
 
         [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+            icon = "fa-tag"
+            title = "Industry-Leading Pricing"
+            description = "Our prices are the absolute best"
 
         [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
-
-		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+			icon = "fa-newspaper-o"
+			title = "Diverse Program Selection"
+			description = "We are connected to the most lenders in the area"
 
         [[params.services.list]]
             icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+            title = "Expert service; Fast Approval"
+            description = "With our Technology and service, we'll get you approved faster than Amazon Deliveries"
 
 
     # Portfolio modals
