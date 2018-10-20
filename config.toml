@@ -34,9 +34,8 @@ googleAnalytics = ""
 		[params.navigation.links]
 			about     = "Home"
 			services  = "Apply"
-			portfolio = "Portfolio"
+			portfolio = "Loan Programs"
 			contact   = "Contact"
-
 
 
 	# Hero section
@@ -44,18 +43,12 @@ googleAnalytics = ""
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Bluestone Home Loans"
 		subtitle   = "Exceptional home financing options for every client."
-		buttonText = "Find out more"
-
-
-	# About section
-	[params.about]
-		headline    = "We've got what you need!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
+		buttonText = "Apply Now"
 
 	# Service section
 	[params.services]
-		headline = "At your service"
+		headline = "Welcome To Bluestone Home Loans"
+		subtext = "We appreciate the opportunity to earn your business. Take a look around our website and get to know us." 
 
         [[params.services.list]]
             icon = "fa-tag"
@@ -72,6 +65,15 @@ googleAnalytics = ""
             title = "Expert service; Fast Approval"
             description = "With our Technology and service, we'll get you approved faster than Amazon Deliveries"
 
+	# Why section
+	[params.why]
+		headline = "Why Bluestone" 
+		buttonText = "Learn More" 
+
+	# Portfolio 
+	[params.portfolio]
+		headline = "Loan Programs" 
+		subtext = "Bluestone Homeloans offers a variety of loan programs to meet your needs. We work with carefully selected, wholesale lenders to provide:" 
 
     # Portfolio modals
 	[params.portfolio.modal]
