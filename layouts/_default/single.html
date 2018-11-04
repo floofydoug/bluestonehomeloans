@@ -1,0 +1,25 @@
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <title> {{ .Title }} </title>
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    </body>
+      {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.services .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.contact }}
+          {{ partial "nav.html" . }}
+      {{ end }}
+
+      {{ if .Site.Params.hero }}
+          {{ partial "hero.html" . }}
+      {{ end }}
+
+      {{ if .Site.Params.about }}
+          {{ partial "about.html" . }}
+      {{ end }}
+          <article id="content">
+            {{ .Content }}
+          </article>
+    </div>
+  </body>
+</html>
