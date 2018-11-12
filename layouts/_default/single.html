@@ -4,6 +4,7 @@
     <title> {{ .Title }} </title>
     <head>
         {{ partial "head.html" . }}
+        <link rel="stylesheet" href="{{ "css/overrides.css" | absURL }}" type="text/css">
     </head>
     </body>
       {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.services .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.contact }}
@@ -11,7 +12,7 @@
       {{ end }}
 
       {{ if .Site.Params.hero }}
-          {{ partial "hero.html" . }}
+          {{ partial "about-hero.html" . }}
       {{ end }}
 
       {{ if .Site.Params.about }}
