@@ -21,9 +21,6 @@
                         <a class="page-scroll" target="_blank" href="https://www.blink.mortgage/app/signup/p/bluestonehomeloansllc/mattmcmahon">Apply Now</a>
                     </li>
 
-                    <li>
-                        <a class="page-scroll" href="/about"> About Us</a>
-                    </li>
                 {{ if and .Site.Params.services.list .Site.Params.navigation.links.services }}
                     <li>
                         <a class="page-scroll" href="#services">{{ .Site.Params.navigation.links.services }}</a>
@@ -34,6 +31,9 @@
                         <a class="page-scroll" href="#portfolio">{{ .Site.Params.navigation.links.portfolio }}</a>
                     </li>
                 {{ end }}
+                    <li>
+                        <a class="page-scroll" href="/about"> About Us</a>
+                    </li>
                 {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
                 <li>
                     <a class="page-scroll" href="#location">{{ .Site.Params.navigation.links.location }}</a>
