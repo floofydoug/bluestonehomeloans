@@ -20,6 +20,9 @@
           <article id="content">
             {{ .Content }}
           </article>
-    </div>
+
+      {{ if .Site.Params.contact }}
+          {{ partial "contact.html" . }}
+      {{ end }}
   </body>
 </html>
