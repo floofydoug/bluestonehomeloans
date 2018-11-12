@@ -52,17 +52,17 @@ googleAnalytics = ""
         [[params.services.list]]
             icon = "fa-tag"
             title = "Industry-Leading Pricing"
-            description = "Our prices are the absolute best"
+            description = "Low rates make us the go-to option for all your home financing needs."
 
         [[params.services.list]]
 			icon = "fa-newspaper-o"
 			title = "Diverse Program Selection"
-			description = "We are connected to the most lenders in the area"
+			description = "We meet the needs of every client by having all the typical mortgage products and much more."
 
         [[params.services.list]]
             icon = "fa-heart"
             title = "Expert service; Fast Approval"
-            description = "With our Technology and service, we'll get you approved faster than Amazon Deliveries"
+            description = "Prompt, personalize service and the latest mortgage technology gets you approved quickly."
 
 	# Why section
 	[params.why]
