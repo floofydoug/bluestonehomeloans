@@ -8,3 +8,10 @@
 .navbar-default .nav>li>a:focus:hover {
     color: #0AF;
 }
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 10px;
+    max-width: 630px;
+}
