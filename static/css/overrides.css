@@ -1,0 +1,10 @@
+@media(min-width:768px) {
+    header {
+        min-height: 500px;
+    }
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #0AF;
+}
