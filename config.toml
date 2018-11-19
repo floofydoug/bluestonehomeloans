@@ -47,7 +47,7 @@ googleAnalytics = ""
 	# Service section
 	[params.services]
 		headline = "Welcome To Bluestone Home Loans"
-		subtext = "We appreciate the opportunity to earn your business. Take a look around our website and get to know us." 
+		subtext = "We appreciate the opportunity to earn your business. Take a look around our website and get to know us."
 
         [[params.services.list]]
             icon = "fa-tag"
@@ -66,13 +66,13 @@ googleAnalytics = ""
 
 	# Why section
 	[params.why]
-		headline = "Why Bluestone" 
-		buttonText = "Learn More" 
+		headline = "Why Bluestone"
+		buttonText = "Learn More"
 
-	# Portfolio 
+	# Portfolio
 	[params.portfolio]
-		headline = "Loan Programs" 
-		subtext = "Bluestone Homeloans offers a variety of loan programs to meet your needs. We work with carefully selected, wholesale lenders to provide:" 
+		headline = "Loan Programs"
+		subtext = "Bluestone Home Loans offers a variety of loan programs to meet your needs. We work with carefully selected, wholesale lenders to provide:"
 
     # Portfolio modals
 	[params.portfolio.modal]
