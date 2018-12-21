@@ -1,42 +1,43 @@
 {{ "<!-- CONTACT -->" | safeHTML }}
-<section id="contact">
+<section id="contact" style="background: #0c2882">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                {{ with .Site.Params.contact.headline }}
-                    <h2 class="section-heading">{{ . }}</h2>
-                {{ end }}
-                {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
-                    <hr class="primary">
-                {{ end }}
-                {{ with .Site.Params.contact.description }}
-                    <p>{{ . | markdownify }}</p>
-                {{ end }}
+          <h3 style="color: white; font-size: 32px; margin-left: 28px;" > Contact Us </h3> 
+          <form name="contact" method="POST" netlify-honeypot="bot-field" netlify style="border-radius: 4px;">
+            <div class="container" style="border-radius: 4px;"> 
+              <p class="hidden">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+              </p>
+              <div class="col-sm-4">
+                  <label style="display: block; color: white; ">
+                      Name: 
+                    <input type="text" name="name" class="form-control" required/>
+                  </label>
+              </div>
+              <div class="col-sm-4">
+                  <label style="display: block; color: white; ">
+                      Email: 
+                    <input type="email" name="name" class="form-control" required/>
+                  </label>
+              </div>
+              <div class="col-sm-4">
+                <label style="display: block; color: white; ">
+                    Phone Number: 
+                  <input type="tel" name="email" class="form-control" required/>
+                </label>
+              </div>
+              <div class="col-sm-12">
+                <label style="display: block; color: white; ">
+                  Message: 
+                  <textarea name="message" class="form-control" rows="5" required> </textarea>
+                </label>
+              </div>
             </div>
-            {{ if .Site.Params.contact.phone }}
-                <div class="
-                {{ if .Site.Params.contact.email }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8
-                {{ end }}
-                col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>{{ .Site.Params.contact.phone }}</p>
-                </div>
-            {{ end }}
-            {{ if .Site.Params.contact.email }}
-                <div class="
-                {{ if .Site.Params.contact.phone }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8 col-lg-offset-2
-                {{ end }}
-                 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
-                </div>
-            {{ end }}
-        </div>
+              <div style="float: right; margin-right: 28px;">
+                  <button type="submit" class="btn btn-default btn-lg">Submit</button>
+              </div>
+              
+          </form>
     </div>
+  </div>
 </section>
