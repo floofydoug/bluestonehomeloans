@@ -484,6 +484,26 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+.contact-bar{
+    background: #7d92d3; 
+    color: white; 
+    margin-top: -100px; 
+    height: 80px
+}
+
+
+
+@media(max-width:768px) {
+    .contact-bar{
+        background: #7d92d3; 
+        color: white; 
+        margin-top: -100px; 
+        height: 180px
+    }
+
+}
+
+
 #map {
     height: 300px;
     overflow: visible;
