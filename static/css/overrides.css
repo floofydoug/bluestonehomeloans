@@ -114,6 +114,8 @@
         margin-left: 50%
     }
 }
+
+
 @media(min-width:768px) {
     header .header-content {
         position: absolute;
@@ -123,4 +125,26 @@
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
+
+    .why-section{
+        background: #08184c; 
+        color: white;
+    }
+
+    .display-why-section-picture{
+        display: visible !important;
+    }
 }
+
+@media(max-width: 768px){
+    .why-section{
+        background: linear-gradient( rgba(12, 30, 130, 0.75), rgba(12, 30, 140, 0.60)),  url("../img/why/vertical-houses.png");
+        background-size: cover;
+        color: white;
+    }
+
+    .display-why-section-picture{
+        display: none !important;
+    }
+}
+
