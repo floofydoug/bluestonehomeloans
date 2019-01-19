@@ -4,6 +4,21 @@
     }
 }
 
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 26px;
+}
+
+@media (min-width: 768px){
+    .navbar-nav>li>a {
+        padding-top: 15px;
+        line-height: 26px;
+        padding-bottom: 15px;
+    }
+}
+
+
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
     color: #0AF;
@@ -40,7 +55,7 @@
     font-size: 42px; 
     font-family: 'Nunito Sans', sans-serif;
     height: auto; 
-    line-height: 1.4em; 
+    line-height: 1.1em; 
 }
 
 .above-hero-title{
@@ -52,7 +67,8 @@
 }
 .subtitles{
     font-weight: 300;
-    font-size: 12px; 
+    font-size: 12px;
+    margin-top: 10px; 
     margin-bottom: 10px; 
 }
 @media(max-width:768px) {
@@ -69,7 +85,7 @@
         height: auto;
         margin-left: 20px; 
         max-width: 300px; 
-        line-height: 1.5em; 
+        line-height: 1.1em; 
     }
     .huge-text{
         font-size: 20px;
@@ -88,3 +104,23 @@
     }
 }
 
+
+.mobile-heo-logo{
+    margin-left: 10px;
+}
+@media (min-width: 768px){
+    .mobile-heo-logo{
+        margin-top: 10px;
+        margin-left: 50%
+    }
+}
+@media(min-width:768px) {
+    header .header-content {
+        position: absolute;
+        top: 60%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}

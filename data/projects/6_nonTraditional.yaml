@@ -5,8 +5,8 @@ client:
 clientLink: "#"
 note: We are the experts on nontraditional mortgage programs. The most options options and competitive pricing.
 description: >
-                "Not every customer's scenario fits neatly into a box. We are the expert on non-traditional mortgage programs and have a wide variety of programs to meet your needs:"
-                <ul style='text-align: left'>
+                Not every customer's scenario fits neatly into a box. We are the expert on non-traditional mortgage programs and have a wide variety of programs to meet your needs:
+                <ul style='text-align: left; margin-bottom: 0px;'>
                 <li>
                   Bank statement income verification program for self-employed (no tax returns utilized)</li>
                   <li>Lower credit scores and/or recent credit events (For example, mortgage lates, short sale, bankruptcy, or foreclosure)</li>
@@ -15,5 +15,5 @@ description: >
                   <li>Non-warrantable condos</li>
                   <li>Interest-only options available in conjunction with most non-traditional programs</li>
                   </br>
-                  <p> Not every situation is listed here. If you have a specific need, please don't hesitate to reach out and we would be happy to assist you. </p>
                 </ul>
+                <p> Not every situation is listed here. If you have a specific need, please don't hesitate to reach out and we would be happy to assist you. </p>

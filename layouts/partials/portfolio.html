@@ -1,4 +1,4 @@
-<section class="no-padding" id="portfolio" style="margin-top: 50px;">
+<section class="no-padding" id="portfolio" style="margin-top: 50px; margin-bottom: 50px;">
         {{ with .Site.Params.portfolio.headline }}
         <div class="container">
                 <div class="row">
@@ -12,10 +12,9 @@
         {{ end }}
 
         {{ with .Site.Params.portfolio.subtext }}
-        <div class="row justify-content-xs-center" style="text-align: center">
-            <div class="col-xs-4"> </div>
-            <div class="col-xs-4">
-                <p> {{.}} </p>
+        <div class="row justify-content-xs-center" style="text-align: center; color: #999; ">
+            <div class="col-xs-4 col-xs-offset-4" style="text-align: center; padding: 15px;">
+                <div> {{.}} </div>
             </div>
         </div>
 

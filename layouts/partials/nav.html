@@ -14,33 +14,33 @@
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                    <li>
+                    <li style="height: 55px">
                             <a class="page-scroll" target="_blank" href="https://www.blink.mortgage/app/login/partner/HWRDIPQL">Sign In</a>
                     </li>
-                    <li>
+                    <li style="height: 55px">
                         <a class="page-scroll" target="_blank" href="https://www.blink.mortgage/app/signup/p/bluestonehomeloansllc/mattmcmahon">Apply Now</a>
                     </li>
 
                 {{ if and .Site.Params.services.list .Site.Params.navigation.links.services }}
-                    <li>
+                    <li style="height: 55px">
                         <a class="page-scroll" href="#services">{{ .Site.Params.navigation.links.services }}</a>
                     </li>
                 {{ end }}
                 {{ if and .Site.Data.projects .Site.Params.navigation.links.portfolio }}
-                    <li>
+                    <li style="height: 55px">
                         <a class="page-scroll" href="/#portfolio">{{ .Site.Params.navigation.links.portfolio }}</a>
                     </li>
                 {{ end }}
-                    <li>
+                    <li style="height: 55px">
                         <a class="page-scroll" href="/about"> About Us</a>
                     </li>
                 {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
-                <li>
+                <li style="height: 55px">
                     <a class="page-scroll" href="#location">{{ .Site.Params.navigation.links.location }}</a>
                 </li>
                 {{ end }}
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
-                    <li>
+                    <li style="height: 55px">
                         <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>
                     </li>
                 {{ end }}
