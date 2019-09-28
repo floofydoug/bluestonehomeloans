@@ -47,8 +47,17 @@ layout: single.html
                 <br />
                 <b>LICENSES & PARTNERSHIPS</b>
                 <br />
-                <i style="font-size:12px">Bluestone Home Loans is a licensed Virginia mortgage broker. NMLS ID #1756752.
-                We are proud member of the Mortgage Bankers Association.</i>
+                <div class="required-text">
+                    <p style="font-size:12px">Bluestone Home Loans is a licensed Virginia mortgage broker.
+                    </p>
+                    <p> NMLS ID #1756752. </p>
+                    <p>
+                        <a href="www.nmlsconsumeraccess.org" target="_blank">               www.nmlsconsumeraccess.org
+                        </a>
+                    <p>
+                        We are proud member of the Mortgage Bankers Association.
+                    </p>
+                </div>
             </div>
         </p>
     </div>
