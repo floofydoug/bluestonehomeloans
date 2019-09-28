@@ -4,8 +4,14 @@
     }
 }
 
+.required-text{
+    margin-bottom: 20px;
+}
+
 div.required-text > p {
     font-size: 12px;
+    line-height: 1.25;
+    margin-bottom: 0px;
 }
 
 .navbar-nav>li>a {
