@@ -11,7 +11,7 @@ layout: single.html
             alt="Keys" style="margin: 10px auto; width: 100%"/>
             <div class="about-text-block">
                 <p>
-                    Bluestone Home Loans was created to better serve the needs of the customer. Our founder, Matt McMahon, learned the business as a loan officer at a large regional bank. He valued his time there and worked with many outstanding individuals.
+                    Bluestone Home Loans LLC was created to better serve the needs of the customer. Our founder, Matt McMahon, learned the business as a loan officer at a large regional bank. He valued his time there and worked with many outstanding individuals.
                     <br /><br />
                     However, he also noticed general inefficiencies that any large financial institution faces that didn’t seem to directly help the customer and could be improved upon. Costly marketing efforts, layers of management, expensive and unused office space, employee turnover, misaligned incentives; these are just some of the costs that add up and ultimately cost the consumer more money.
                     <br /><br />
@@ -48,7 +48,7 @@ layout: single.html
                 <b>LICENSES & PARTNERSHIPS</b>
                 <br />
                 <div class="required-text">
-                    <p style="font-size:12px">Bluestone Home Loans is a licensed Virginia mortgage broker.
+                    <p style="font-size:12px">Bluestone Home Loans LLC is a licensed Virginia mortgage broker.
                     </p>
                     <p> NMLS ID #1756752. </p>
                     <p>
