@@ -1,0 +1,2 @@
+### development
+hugo server -D 
